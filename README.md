@@ -1,4 +1,3 @@
-# ppc64le_alpine_rust_1.26.2
 # Compiling Rust for Alpine
 
 This repository contains the source, patches, scripts, and bootstrap packages (Cargo and Rustc) need to compile rust on Alpine.
@@ -22,9 +21,8 @@ This repository contains the source, patches, scripts, and bootstrap packages (C
    
    c. Copy the contents of this project to /root/test262  directory
    
-   d. as root, /root/test26/build_rust262.sh
+   d. as root, /root/test262/build_rust262.sh
 
-Note: rust versions 1.24.1, 1.26.0, 1.26.1, and 1.26.2 source can be built successfully for ppc64le. However the 1.25.0 level encountered multiple build errors. This archive contains rust and cargo apk 1.26.0 packages that were built successfully on Alpine and are used as bootstraps
+Note: rust versions 1.24.1, 1.26.0, 1.26.1, and 1.26.2  source can be built successfully for ppc64le. However the 1.25.0 level encountered multiple build errors. This archive contains rust and cargo apk 1.26.0 packages that were built successfully on Alpine and are used as bootstraps
 
 Note: When using the abuild process multiple testcase errors occur during the check() phase that need further investigation.
-
